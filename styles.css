@@ -1,0 +1,85 @@
+
+body {
+   
+  background-image: url(Background/9.jpg); 
+  /* background: linear-gradient(to left, #ffbfaf, #fff3d9); */
+
+}
+
+.hero {
+ /* Use flexbox for horizontal alignment */
+
+
+    margin-top: 100px;
+    padding:0 200px;
+    gap: 50px;
+    margin-right: 100px;
+}
+
+.content {
+    display: flex;
+    align-items: center; /* Vertically align the items */
+    justify-content: space-between; /* Create space between the text and GIF */
+    gap: 80px; /* Optional: Add spacing between the text and GIF */
+}
+
+.container {
+    display:flex;
+    flex-direction: column; /* Stack text and button vertically */
+    max-width: 90%;
+    align-items: flex-start;
+  /*  height: 100%; /* Full height container for centering */
+  /*  align-items: center; /* Center content vertically */
+  /*  justify-content: flex-end; /* Align content to the left */
+}
+
+
+
+h1 {
+    font-size: 7rem;
+    color: #000000;
+    font-family: "Roboto";
+    text-align: left;
+ /* Add some space from the edge if needed */
+
+  
+  }
+
+h2 {
+    flex: 1;
+    font-size: 1.2rem;
+    color: #000000;
+    font-family: "Roboto";
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.gift-image {
+    max-width: 25%; /* Adjust the size of the GIF if needed */
+    height: auto; /* Maintain the aspect ratio */
+    align-items: right;
+}
+
+.onwards-btn {
+    color: #000000;
+    background-color: #ebfff4;
+    border: 5px solid #000;
+    font-weight: 500;
+    padding: 10px 20px;
+    font-family: "Roboto";
+    font-size: 2.1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.onwards-btn:hover {
+    background-color: #7cd6b1;
+    color: #000000;
+}
+
+
+
+
+
+
